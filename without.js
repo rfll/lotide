@@ -19,7 +19,7 @@ const assertArraysEqual = function(arrOne, arrTwo) {
   } else {
     console.log("These 2 arrays are not equal");
   }
-};  
+};
 
 const without = function(source, itemsToRemove) {
   let newArr = [];
@@ -30,10 +30,10 @@ const without = function(source, itemsToRemove) {
   }
   console.log(newArr);
   return newArr;
-}
+};
 
-without([1, 2, 3], [1]) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+without([1, 2, 3], [1]); // => [2, 3]
+without(["1", "2", "3"], [1, 2, "3"]); // => ["1", "2"]
 
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]); // no need to capture return value for this test case
