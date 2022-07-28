@@ -11,7 +11,7 @@ const assertEqual = function(actual, expected) {
 // function should create object
 // function should take characters from string and add as object keys
 // function should increment object keys when it sees a duplicate in the string
-// function should output a primitive data type
+
 const countLetters = function(newStr) {
   const results = {};
 
