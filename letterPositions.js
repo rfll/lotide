@@ -5,16 +5,16 @@ const letterPositions = function(sentence) {
   // return string letters as object keys
   // return string letter indexes in an array for each letter
 
-    for (let i = 0; i < sentence.length; i++) {
-      if (i === " ") {
-        continue;
-      }
-      if (results[sentence[i]]) {
-        results[sentence[i]].push(i);
-      } else {
-      results[sentence[i]] = [i];
-      }
+  for (let i = 0; i < sentence.length; i++) {
+    if (i === " ") {
+      continue;
     }
+    if (results[sentence[i]]) {
+      results[sentence[i]].push(i);
+    } else {
+      results[sentence[i]] = [i];
+    }
+  }
 
   return results;
 };
@@ -42,6 +42,6 @@ const assertArraysEqual = function(arrOne, arrTwo) {
   } else {
     console.log("These 2 arrays are not equal");
   }
-};  
+};
 
 assertArraysEqual(letterPositions("hello").e, [1]);
