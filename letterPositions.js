@@ -36,6 +36,9 @@ const eqArrays = function(arrOne, arrTwo) {
   return true;
 };
 
+
+module.exports = letterPositions;
+
 const assertArraysEqual = function(arrOne, arrTwo) {
   if (eqArrays(arrOne, arrTwo)) {
     console.log("These 2 arrays are equal");
