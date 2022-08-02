@@ -27,7 +27,9 @@ const countLetters = function(newStr) {
   }
   }
   return results;
-}
+};
+
+module.exports = countLetters;
 
 
 console.log(countLetters("LHL"));
