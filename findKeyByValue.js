@@ -19,6 +19,9 @@ const findKeyByValue = function(randomKey, randomValue) {
 };
 
 
+module.exports = findKeyByValue;
+
+
 
 const bestTVShowsByGenre = {
   sci_fi: "The Expanse",
