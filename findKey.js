@@ -22,6 +22,7 @@ const findKey = function(itsAnObject, stopCondition) {
 };
 
 
+module.exports = findKey;
 
 
 assertEqual(findKey({
