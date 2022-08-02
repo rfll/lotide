@@ -26,7 +26,10 @@ if (itemsToCount[item]) {
   console.log(item);
   }
   return results;
-}
+};
+
+
+module.exports = countOnly;
 
 
 const firstNames = [
